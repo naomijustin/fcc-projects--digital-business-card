@@ -6,12 +6,12 @@ import Footer from "./components/Footer.js"
 
 function App() {
     return (
-        <>
+        <div className="app--container">
             <Info />
             <About />
             <Interests />
             <Footer />
-        </>
+        </div>
     )
 }
 

@@ -1,8 +1,13 @@
 import React from "react"
+import profileImage from "../images/Naomi-Image.jpg"
 
 function Info() {
     return (
-        <h1>Info here</h1>
+        <div>
+            <img className="info--img" src={profileImage}></img>
+            <h1>Naomi Justin</h1>
+            <h4>Frontend Developer</h4>
+        </div>
     )
 }
 
