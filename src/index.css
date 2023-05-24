@@ -2,8 +2,22 @@ body {
     background-color: #1C1C1C;
     margin: 0;
 }
-
+.app--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 44px;
+}
+/* .info--img-container {
+    
+} */
 .info--img {
-    width: 317px;
-    height: 317px;
+    width: 100%;
+    max-width: 317px;
+    aspect-ratio: auto;
+    min-width: 200px;
+    object-fit: cover; 
+    object-position: center center;
+    border-radius: 10px 10px 0px 0px;
 }
