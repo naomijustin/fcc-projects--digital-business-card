@@ -8,6 +8,10 @@ function Info() {
             <h1 className="txt-h1">Naomi Justin</h1>
             <h4 className="txt-h4">Frontend Developer</h4>
             <h5 className="txt-h5">naomijustin.com</h5>
+            <div className="info--button-container">
+                <button id="btnEmail">Email</button>
+                <button id="btnLinkedIn">Linked In</button>
+            </div>
         </div>
     )
 }

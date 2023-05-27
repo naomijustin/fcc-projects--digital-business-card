@@ -31,6 +31,10 @@ body {
     object-position: center center;
     border-radius: 10px 10px 0px 0px;
 }
+.info--button-container {
+    display: flex;
+    justify-content: center;
+}
 .txt-h1 {
     font-weight: 700;
     font-size: 1.5rem;
@@ -48,5 +52,32 @@ body {
     font-weight: 400;
     font-size: 11px;
     text-align: center;
-    margin: 2px;
+    margin: 2px 0px 0px 0px;
+}
+.info--button-container {
+    margin-top: 15px;
+    gap: 10px;
+}
+#btnEmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 113px;
+    height: 32px;
+    background: #FFFFFF;    
+    border: 1px solid #D1D5DB;    
+    border-radius: 6px;
+}
+#btnLinkedIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    gap: 8px;    
+    width: 115px;
+    height: 34px;
+    background: #5093E2;
+    border-radius: 6px;
 }
