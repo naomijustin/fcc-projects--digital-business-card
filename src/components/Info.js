@@ -1,6 +1,7 @@
 import React from "react"
 import profileImage from "../images/Naomi_Profile_500px.jpg"
 import mailIcon from "../images/Mail.svg"
+import linkedInIcon from "../images/linkedin.svg"
 
 function Info() {
     return (
@@ -10,8 +11,8 @@ function Info() {
             <h4 className="txt-h4">Frontend Developer</h4>
             <h5 className="txt-h5">naomijustin.com</h5>
             <div className="info--button-container">
-                <button id="btnEmail"><img src={mailIcon}></img>Email</button>
-                <button id="btnLinkedIn">Linked In</button>
+                <button id="btnEmail"><img src={mailIcon} alt="Email icon"></img>Email</button>
+                <button id="btnLinkedIn"><img src={linkedInIcon} alt="LinkedIn icon"></img>Linked In</button>
             </div>
         </div>
     )
