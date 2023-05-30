@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/naomijustin/fcc-projects--digital-business-card/static/css/main.f178bed5.css",
+    "main.js": "/naomijustin/fcc-projects--digital-business-card/static/js/main.eb242d47.js",
+    "static/media/Naomi_Profile_500px.jpg": "/naomijustin/fcc-projects--digital-business-card/static/media/Naomi_Profile_500px.a20d0bfb1ba75103a0a1.jpg",
+    "static/media/InstagramIcon.svg": "/naomijustin/fcc-projects--digital-business-card/static/media/InstagramIcon.7d8ad7f9b33a773c27398cacfc5a97a3.svg",
+    "static/media/GitHubIcon.svg": "/naomijustin/fcc-projects--digital-business-card/static/media/GitHubIcon.23d6dfa78140e8017f08351385915806.svg",
+    "static/media/TwitterIcon.svg": "/naomijustin/fcc-projects--digital-business-card/static/media/TwitterIcon.3f40423293e1813898c7e26f729a0705.svg",
+    "static/media/linkedin.svg": "/naomijustin/fcc-projects--digital-business-card/static/media/linkedin.428e955672b18cdce36ebda64db7eedc.svg",
+    "index.html": "/naomijustin/fcc-projects--digital-business-card/index.html",
+    "static/media/FacebookIcon.svg": "/naomijustin/fcc-projects--digital-business-card/static/media/FacebookIcon.00c353d38f22d18d3ff0962f9ce66f43.svg",
+    "static/media/Mail.svg": "/naomijustin/fcc-projects--digital-business-card/static/media/Mail.341d1e767b26e2540702fb63676d4501.svg",
+    "main.f178bed5.css.map": "/naomijustin/fcc-projects--digital-business-card/static/css/main.f178bed5.css.map",
+    "main.eb242d47.js.map": "/naomijustin/fcc-projects--digital-business-card/static/js/main.eb242d47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f178bed5.css",
+    "static/js/main.eb242d47.js"
+  ]
+}
