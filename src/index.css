@@ -85,6 +85,9 @@ body {
     font-weight: 500;
     font-size: 0.9rem;
 }
+a {
+    text-decoration: none;    
+}
 #btnLinkedIn {
     display: flex;
     flex-direction: row;
@@ -99,6 +102,9 @@ body {
     font-weight: 500;
     color: #FFFFFF;
     font-size: 0.9rem;
+}
+#btnLinkedIn:hover {
+    cursor: pointer;
 }
 /* --- About & Interests Section --- */
 .paragraph-padding {

@@ -12,7 +12,9 @@ function Info() {
             <h5 className="txt-h5">naomijustin.com</h5>
             <div className="info--button-container pb-10px">
                 <button id="btnEmail"><img src={mailIcon} alt="Email icon"></img>Email</button>
-                <button id="btnLinkedIn"><img src={linkedInIcon} alt="LinkedIn icon"></img>Linked In</button>
+                <a href="https://www.linkedin.com/in/naomi-justin/" target="_blank">
+                    <button id="btnLinkedIn"><img src={linkedInIcon} alt="LinkedIn icon"></img>Linked In</button>
+                </a>
             </div>
         </div>
     )
