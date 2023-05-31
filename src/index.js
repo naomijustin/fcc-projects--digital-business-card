@@ -1,11 +1,18 @@
 import React, { StrictMode } from "react"
 import ReactDOM from "react-dom/client"
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import App from "./App.js"
 import "./index.css"
 
+const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <App />,
+    },
+  ]);
+
 ReactDOM.createRoot(document.getElementById("root")).render(    
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <Route exact path="/" component={App} />               
-    </BrowserRouter>    
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>   
 )
