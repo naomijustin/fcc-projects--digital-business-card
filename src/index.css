@@ -59,11 +59,12 @@ body {
     text-align: center;
     font-size: 13px;
 }
-.txt-h5 {
+.txt-h5, .txt-h5 > a {
     font-weight: 400;
     font-size: 11px;
     text-align: center;
     margin: 2px 0px 0px 0px;
+    color: #FFFFFF;
 }
 .info--button-container {
     margin-top: 15px;
@@ -103,7 +104,7 @@ a {
     color: #FFFFFF;
     font-size: 0.9rem;
 }
-#btnLinkedIn:hover {
+#btnLinkedIn:hover, #btnEmail:hover {
     cursor: pointer;
 }
 /* --- About & Interests Section --- */

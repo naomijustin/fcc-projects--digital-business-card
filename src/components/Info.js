@@ -9,9 +9,11 @@ function Info() {
             <img className="info--img" src={profileImage}></img>
             <h1 className="txt-h1">Naomi Justin</h1>
             <h4 className="txt-h4">Frontend Developer</h4>
-            <h5 className="txt-h5">naomijustin.com</h5>
+            <h5 className="txt-h5"><a href="https://naomijustin.com/" target="_blank">naomijustin.com</a></h5>
             <div className="info--button-container pb-10px">
-                <button id="btnEmail"><img src={mailIcon} alt="Email icon"></img>Email</button>
+                <a href="https://naomijustin.com/pages/contact" target="_blank">
+                    <button id="btnEmail"><img src={mailIcon} alt="Email icon"></img>Email</button>
+                </a>
                 <a href="https://www.linkedin.com/in/naomi-justin/" target="_blank">
                     <button id="btnLinkedIn"><img src={linkedInIcon} alt="LinkedIn icon"></img>Linked In</button>
                 </a>
